@@ -1,4 +1,4 @@
-public class BonusServise {
+public class BonusServiсe {
     public long calculate(long amount, boolean registered) {
         int percent = registered ? 3 : 1;
         long bonus = amount * percent / 100 / 100;
